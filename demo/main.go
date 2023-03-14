@@ -2,6 +2,7 @@ package main
 
 import (
 	"demo/router"
+	"fmt"
 
 	"github.com/gin-gonic/gin"
 )
@@ -13,4 +14,6 @@ func main() {
 	router.Userroutes(router1)
 
 	router1.Run("localhost:8080")
+
+	fmt.Printf("educ")
 }
